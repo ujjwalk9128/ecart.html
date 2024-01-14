@@ -1,0 +1,151 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.header
+{
+    background-color: rgb(207, 187, 217);
+    display: flex;
+    padding:20px;
+    gap: 30px;
+    flex-direction: row;
+    flex-wrap: wrap;   
+
+}
+.header-a
+{
+    font-size: 30px;
+    margin-left: 40px;
+    display: flex;
+
+}
+.search-container
+{
+    padding-top: 18px;
+    margin-left: 40px;
+  
+}
+.signin
+{
+    padding-top: 18px;
+    font-size: 15px;
+    align-items: center;
+    margin-left: 50px;
+}
+.cart
+{
+    padding-top: 18px;
+    font-size: 15px;
+    align-items: center;
+    margin-left: 50px;
+}
+.navbar
+{
+    background-color:bisque;
+    display: flex; 
+    flex-wrap: wrap;
+}
+.navbar>div
+{
+    
+    font-size:20px;
+    padding:20px;
+    color: white;
+    margin-left: 40px;
+}
+.grid-container
+{
+    display: grid;
+    column-gap: 1px;
+    row-gap: 1px;
+    grid-template-columns: auto auto;
+    background-color:white;
+    padding:5px;
+}
+.grid-item
+{
+    background-color:white;
+    border: 1px solid black;
+    align-items: center;
+   
+}
+.responsive
+{
+  width: 100%;
+  height: auto;
+}
+
+.grid-container1
+{
+    display: grid;
+    column-gap: 1px;
+    row-gap: 1px;
+    grid-template-columns: auto auto auto;
+    background-color:white;
+    padding:5px;
+}
+.grid-item1
+{
+    background-color:white;
+    border: 1px solid black;
+    align-items: center;
+   
+}
+.responsive1
+{
+  width: 100%;
+  height: auto;
+}
+.payment
+{
+    background-color:aquamarine;
+    display: grid;
+    column-gap: 30px;
+    padding: 20px;
+    grid-template-columns: auto auto auto;
+}
+.payment>div
+{
+    align-items: center;
+    text-align: center;
+    background-color:honeydew;
+    padding: 20px;
+    font-size: 20px;
+}
+.bottom-to-topA
+{
+    background-color: brown;    
+}
+.bottom-to-topA>h3
+{ 
+    padding: 10px;
+    font-size: 25px;
+    text-align: center;
+   color: white;
+}
+
+.footer
+{
+    background-color: blueviolet;
+    display: flex;
+    flex-direction: column;
+}
+.footerA
+{
+    background-color:darkgray;
+    padding: 20px;
+    font-size: 30px;
+    text-align: center;
+}
+.footerB
+{
+    background-color: black;
+    font-size: 10px;
+    padding: 20px;
+    text-align: center;
+}
+.footerB>h2
+{
+    color: white;
+}
